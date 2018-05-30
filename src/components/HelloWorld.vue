@@ -80,16 +80,21 @@
         </a>
       </li>
     </ul>
+    <project></project>
   </div>
 </template>
 
 <script>
+  import project from "./project.vue"
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    project
   }
 }
 </script>
