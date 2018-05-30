@@ -2,11 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
-<<<<<<< HEAD
      <p>我是project分支修改的</p>
-=======
     <p>我是dev分支修改的</p>
->>>>>>> dev
   </div>
 </template>
 
