@@ -81,11 +81,12 @@
       </li>
     </ul>
     <project></project>
+    <dev></dev>
   </div>
 </template>
-
 <script>
   import project from "./project.vue"
+  import dev from "./dev.vue"
 export default {
   name: 'HelloWorld',
   data () {
@@ -94,7 +95,8 @@ export default {
     }
   },
   components:{
-    project
+    project,
+    dev
   }
 }
 </script>
