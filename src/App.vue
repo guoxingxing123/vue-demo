@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+     <p>我是project分支修改的</p>
   </div>
 </template>
 
