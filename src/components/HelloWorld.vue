@@ -80,16 +80,20 @@
         </a>
       </li>
     </ul>
+    <dev></dev>
   </div>
 </template>
-
 <script>
+  import dev from "./dev.vue"
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    dev
   }
 }
 </script>
